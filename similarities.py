@@ -96,7 +96,7 @@ def pearson_profile_network_similarity (data,p1,p2,avgs,profile_sims,network_sim
     prof_sim = profile_sims[p1][p2]
     #Get the network similarity for the two users
     net_sim = network_sims[p1][p2]
-    r = basic * net_sim * prof_sim
+    r = basic * net_sim * 0.5 + 0.5 *prof_sim
     return r
 
 def pearson_averaged_profile_network_similarity (data,p1,p2,avgs,profile_sims,network_sims):
