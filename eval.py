@@ -6,12 +6,15 @@ from rateLocations import *
 from similarities import *
 import pandas as pd
 from sklearn.linear_model import LinearRegression
+import math as math
+import warnings
+warnings.simplefilter("ignore", category=DeprecationWarning)
 
 client = MongoClient('localhost', 27017)
 db = client.script
 
 #Define the similarity measurement
-similarity = pearson_profile_network_similarity
+similarity = pearson_network_similarity_basic
 
 #Initializing the test and training data sets for use
 training_data,test_data,new_users = initializeDataSet()
@@ -99,10 +102,21 @@ def calculate_errors():
 
     mae = mean_absolute_error(actual_final,predicted_final)
     rms = sqrt(mean_squared_error(actual_final,predicted_final))
+    mape = mean_absolute_percentage_error(actual_final,predicted_final)
 
     print (mae)
     print (rms)
+    print (mape)
 
+
+#Function implementing the MAPE
+def mean_absolute_percentage_error(actual, predict):
+    tmp, n = 0.0, 0
+    for i in range(0, len(actual)):
+        if actual[i] != 0:
+            tmp += math.fabs(actual[i]-predict[i])/actual[i]
+            n += 1
+    return (tmp/n)*100
 
 #Function to calculate the accuracy of profile attribute predictions
 def calculate_profile_prediction_accuracy():

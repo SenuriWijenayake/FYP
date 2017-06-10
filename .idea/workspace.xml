@@ -7,6 +7,10 @@
     <list default="true" id="bfc5d3b8-1884-4224-9df0-6ebcf5b843df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eval.py" afterPath="$PROJECT_DIR$/eval.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_script.py" afterPath="$PROJECT_DIR$/new_script.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rateLocations.py" afterPath="$PROJECT_DIR$/rateLocations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/similarities.py" afterPath="$PROJECT_DIR$/similarities.py" />
     </list>
     <ignored path="Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,38 +29,45 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rateLocations.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rateLocations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1896">
-              <caret line="288" column="34" selection-start-line="288" selection-start-column="4" selection-end-line="288" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eval.py" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="eval.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="140">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#1115#1332#0" expanded="false" />
-                <element signature="e#1584#1823#0" expanded="false" />
-                <element signature="e#1906#2006#0" expanded="false" />
-                <element signature="e#3299#4634#0" expanded="false" />
+                <element signature="e#3755#5090#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_script.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new_script.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="160">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="similarities.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/similarities.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="119" column="34" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rateLocations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rateLocations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="153" column="44" selection-start-line="153" selection-start-column="39" selection-end-line="153" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -105,12 +116,12 @@
         <option value="$PROJECT_DIR$/regression_test.py" />
         <option value="$PROJECT_DIR$/regression_fit.py" />
         <option value="$PROJECT_DIR$/getPrediction.py" />
-        <option value="$PROJECT_DIR$/new_script.py" />
         <option value="$PROJECT_DIR$/accuracycheck.py" />
         <option value="$PROJECT_DIR$/postanalysis.py" />
-        <option value="$PROJECT_DIR$/eval.py" />
-        <option value="$PROJECT_DIR$/similarities.py" />
+        <option value="$PROJECT_DIR$/new_script.py" />
         <option value="$PROJECT_DIR$/rateLocations.py" />
+        <option value="$PROJECT_DIR$/similarities.py" />
+        <option value="$PROJECT_DIR$/eval.py" />
       </list>
     </option>
   </component>
@@ -145,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,23 +175,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,23 +219,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="regression_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regression_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="accuracycheck" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,6 +249,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/postanalysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -423,17 +420,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.regression_fit" />
       <item index="1" class="java.lang.String" itemvalue="Python.new_script" />
-      <item index="2" class="java.lang.String" itemvalue="Python.regression_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.accuracycheck" />
-      <item index="4" class="java.lang.String" itemvalue="Python.postanalysis" />
+      <item index="2" class="java.lang.String" itemvalue="Python.accuracycheck" />
+      <item index="3" class="java.lang.String" itemvalue="Python.postanalysis" />
+      <item index="4" class="java.lang.String" itemvalue="Python.eval" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.new_script" />
-        <item index="1" class="java.lang.String" itemvalue="Python.accuracycheck" />
-        <item index="2" class="java.lang.String" itemvalue="Python.postanalysis" />
-        <item index="3" class="java.lang.String" itemvalue="Python.regression_fit" />
-        <item index="4" class="java.lang.String" itemvalue="Python.regression_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.eval" />
+        <item index="2" class="java.lang.String" itemvalue="Python.accuracycheck" />
+        <item index="3" class="java.lang.String" itemvalue="Python.postanalysis" />
+        <item index="4" class="java.lang.String" itemvalue="Python.regression_fit" />
       </list>
     </recent_temporary>
   </component>
@@ -680,37 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/similarities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
-          <folding>
-            <element signature="e#35#62#0" expanded="true" />
-            <element signature="e#1509#1824#0" expanded="false" />
-            <element signature="e#1902#2237#0" expanded="false" />
-            <element signature="e#2240#2352#0" expanded="false" />
-            <element signature="e#2584#2812#0" expanded="false" />
-            <element signature="e#2890#3213#0" expanded="false" />
-            <element signature="e#3738#4265#0" expanded="false" />
-            <element signature="e#4416#4602#0" expanded="false" />
-            <element signature="e#4834#6051#0" expanded="false" />
-            <element signature="e#6137#6276#0" expanded="false" />
-            <element signature="e#6367#6620#0" expanded="false" />
-            <element signature="e#6715#7489#0" expanded="false" />
-            <element signature="e#7568#8234#0" expanded="false" />
-            <element signature="e#8420#12552#0" expanded="false" />
-            <element signature="e#12658#13046#0" expanded="false" />
-            <element signature="e#13121#13249#0" expanded="false" />
-            <element signature="e#13350#13875#0" expanded="false" />
-            <element signature="e#13997#14409#0" expanded="false" />
-            <element signature="e#15536#16917#0" expanded="false" />
-            <element signature="e#17495#18231#0" expanded="false" />
-            <element signature="e#18286#19152#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,37 +684,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="306" column="0" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#1115#1332#0" expanded="false" />
-            <element signature="e#1584#1823#0" expanded="false" />
-            <element signature="e#1906#2006#0" expanded="false" />
-            <element signature="e#3299#4634#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rateLocations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1896">
-          <caret line="288" column="34" selection-start-line="288" selection-start-column="4" selection-end-line="288" selection-end-column="34" />
+        <state relative-caret-position="128">
+          <caret line="153" column="44" selection-start-line="153" selection-start-column="39" selection-end-line="153" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similarities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="119" column="34" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="160">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#3755#5090#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

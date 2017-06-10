@@ -1,6 +1,3 @@
-import warnings
-warnings.simplefilter("ignore", category=DeprecationWarning)
-
 from eval import *
 
 calculate_errors()

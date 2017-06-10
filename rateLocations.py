@@ -80,7 +80,7 @@ def rateLocations(data,active,locations,avgs,all_sims):
                 print("New Location - New user")
                 #Handle new location
                 rating = getNewLocationRatingForNewUser(loc,active)
-                rated_locations[loc] = round(rating,1)
+                rated_locations[loc] = round(rating,2)
 
             else:
                 print("Existing Location - New user")
@@ -108,7 +108,7 @@ def rateLocations(data,active,locations,avgs,all_sims):
                 avg_norm_rating = total/den
 
                 rating = avg_of_avgs + avg_norm_rating
-                rated_locations[loc] = round(rating,1)
+                rated_locations[loc] = round(rating,2)
 
         print(rated_locations)
         ##Sorting the dictionary
@@ -128,7 +128,7 @@ def rateLocations(data,active,locations,avgs,all_sims):
                 print("New Location - Existing user")
                 #Handle new location
                 rating = getNewLocationRatingForExistingUser(loc,active)
-                rated_locations[loc] = round(rating,1)
+                rated_locations[loc] = round(rating,2)
 
             else:
                 print("Existing Location - Existing user")
@@ -151,7 +151,7 @@ def rateLocations(data,active,locations,avgs,all_sims):
                     total += norm_sim_product
 
                 #Calculate the score of the location
-                rated_locations[loc] = round((active_avg + k * total),1)
+                rated_locations[loc] = round((active_avg + k * total),2)
 
         print(rated_locations)
 
