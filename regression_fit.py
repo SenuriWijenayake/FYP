@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.cross_validation import train_test_split
 
 data = pd.read_csv('csv/Raw/test.csv', sep=',', na_values="")
-train_data, test_data = train_test_split(data,train_size=0.8)
+train_data, test_data = train_test_split(data,train_size=0.75)
 
 # Train the model
 X = train_data[['gender','mutual_strength', 'locations_together', 'likes']]
